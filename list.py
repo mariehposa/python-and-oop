@@ -17,8 +17,9 @@ if 1 in my_list:
     print('It exists')
 else:
     print('It does not exists')
-    
+
 # Get the length of a list
+print(len(my_list))
 # Add an item to the end of a list
 # Add an item at a specified index
 # Remove an item
