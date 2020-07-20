@@ -11,7 +11,13 @@ print(my_list)
 # Loop through a list
 for x in my_list:
     print(x)
+
 # Check if a list item exists
+if 1 in my_list:
+    print('It exists')
+else:
+    print('It does not exists')
+    
 # Get the length of a list
 # Add an item to the end of a list
 # Add an item at a specified index
