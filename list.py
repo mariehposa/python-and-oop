@@ -20,7 +20,11 @@ else:
 
 # Get the length of a list
 print(len(my_list))
+
 # Add an item to the end of a list
+my_list.append(8)
+print(my_list)
+
 # Add an item at a specified index
 # Remove an item
 # Remove an item at a specified index
