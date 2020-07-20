@@ -3,7 +3,11 @@ my_list = [2, 3, 4, 6, 8]
 
 # Access list items
 print(my_list[0: 5])
+
 # Change the value of a list item
+my_list[4] = 7
+print(my_list)
+
 # Loop through a list
 # Check if a list item exists
 # Get the length of a list
