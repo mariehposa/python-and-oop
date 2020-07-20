@@ -34,8 +34,11 @@ my_list.pop()
 print(my_list)
 
 # Remove an item at a specified index
-del my_list[0]
+my_list.remove(0)
 print(my_list)
 
 # Empty a list
+del my_list
+print (my_list)
+
 # Use the list() constructor to make a list
