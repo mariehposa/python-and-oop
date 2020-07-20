@@ -30,9 +30,12 @@ my_list.insert(0, 1)
 print(my_list)
 
 # Remove an item
-my_list.remove(8)
+my_list.pop()
 print(my_list)
 
 # Remove an item at a specified index
+del my_list[0]
+print(my_list)
+
 # Empty a list
 # Use the list() constructor to make a list
