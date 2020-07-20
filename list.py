@@ -9,6 +9,8 @@ my_list[4] = 7
 print(my_list)
 
 # Loop through a list
+for x in my_list:
+    print(x)
 # Check if a list item exists
 # Get the length of a list
 # Add an item to the end of a list
