@@ -26,6 +26,9 @@ my_list.append(8)
 print(my_list)
 
 # Add an item at a specified index
+my_list.insert(0, 1)
+print(my_list)
+
 # Remove an item
 # Remove an item at a specified index
 # Empty a list
