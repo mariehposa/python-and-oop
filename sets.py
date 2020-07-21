@@ -6,6 +6,9 @@ for x in my_set:
     print(x)
 
 # Check if an item exists
+if 'rice' in my_set:
+    print('It exists')
+
 # Add an item to a set
 # Add multiple items to a set
 # Get the length of a set
