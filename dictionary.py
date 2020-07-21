@@ -12,6 +12,8 @@ my_dict.update({'age': 24, 'profession': 'doctor'})
 print(my_dict)
 
 # Print all key names in a dictionary, one by one
+print(my_dict.keys())
+
 # Print all values in a dictionary, one by one
 # Use the values() function to return values of a dictionary
 # Loop through both keys and values, by using the items() function
