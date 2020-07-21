@@ -8,7 +8,7 @@ my_dict = {
 print(my_dict.items())
 
 # Change the value of a specific item in a dictionary
-my_dict.update({'age': 24, 'profession': 'doctor'})
+my_dict.update({'age': 24})
 print(my_dict)
 
 # Print all key names in a dictionary, one by one
@@ -27,6 +27,8 @@ for y in my_dict.values():
 print(len(my_dict))
 
 # Add an item to a dictionary
+my_dict.update({'profession': 'doctor'})
+
 # Remove an item from a dictionary
 # Empty a dictionary
 # Use the dict() constructor to create a dictionary
