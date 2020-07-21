@@ -27,6 +27,7 @@ for y in my_dict.values():
 print(len(my_dict))
 
 # Add an item to a dictionary
+my_dict['school'] = 'Lambda School'
 my_dict.update({'profession': 'doctor'})
 
 # Remove an item from a dictionary
