@@ -35,3 +35,4 @@ my_set.clear()
 del my_set
 
 # Use the set() constructor to create a set
+new_set = set()
