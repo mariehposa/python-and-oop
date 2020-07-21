@@ -37,3 +37,5 @@ my_dict.pop('age')
 del my_dict
 
 # Use the dict() constructor to create a dictionary
+new_dict = dict()
+print(new_dict)
