@@ -20,3 +20,4 @@ print(len(my_tuple))
 del my_tuple
 
 # Use the tuple() constructor to create a tuple
+new_tuple = tuple()
