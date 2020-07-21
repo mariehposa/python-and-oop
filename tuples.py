@@ -13,6 +13,9 @@ for x in my_tuple:
     print(x)
 
 # Check if a tuple item exists
+if 'mango' in my_tuple:
+    print('It exists')
+
 # Get the length of a tuple
 print(len(my_tuple))
 
