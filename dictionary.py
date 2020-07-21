@@ -30,5 +30,8 @@ print(len(my_dict))
 my_dict.update({'profession': 'doctor'})
 
 # Remove an item from a dictionary
+my_dict.popitem()
+my_dict.pop('age')
+
 # Empty a dictionary
 # Use the dict() constructor to create a dictionary
