@@ -26,6 +26,8 @@ my_set.remove('egg')
 my_set.discard('yam')
 
 # Remove the last item in a set by using the pop() method
+my_set.pop()
+
 # Empty a set
 # Delete a set
 # Use the set() constructor to create a set
