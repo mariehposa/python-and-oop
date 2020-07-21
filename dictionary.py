@@ -34,4 +34,6 @@ my_dict.popitem()
 my_dict.pop('age')
 
 # Empty a dictionary
+del my_dict
+
 # Use the dict() constructor to create a dictionary
