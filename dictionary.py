@@ -5,8 +5,12 @@ my_dict = {
 }
 
 # Access the items of a dictionary
-print(my_dict)
+print(my_dict.items())
+
 # Change the value of a specific item in a dictionary
+my_dict.update({'age': 24, 'profession': 'doctor'})
+print(my_dict)
+
 # Print all key names in a dictionary, one by one
 # Print all values in a dictionary, one by one
 # Use the values() function to return values of a dictionary
