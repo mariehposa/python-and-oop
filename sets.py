@@ -23,6 +23,8 @@ print(len(my_set))
 my_set.remove('egg')
 
 # Remove an item in a set by using the discard() method
+my_set.discard('yam')
+
 # Remove the last item in a set by using the pop() method
 # Empty a set
 # Delete a set
