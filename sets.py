@@ -13,7 +13,12 @@ if 'rice' in my_set:
 my_set.add('beans')
 
 # Add multiple items to a set
+my_set.update({'yam', 'egg'})
+print(my_set)
+
 # Get the length of a set
+print(len(my_set))
+
 # Remove an item in a set
 # Remove an item in a set by using the discard() method
 # Remove the last item in a set by using the pop() method
