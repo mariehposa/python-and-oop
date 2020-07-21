@@ -17,4 +17,6 @@ for x in my_tuple:
 print(len(my_tuple))
 
 # Delete a tuple
+del my_tuple
+
 # Use the tuple() constructor to create a tuple
