@@ -12,16 +12,20 @@ my_dict.update({'age': 24, 'profession': 'doctor'})
 print(my_dict)
 
 # Print all key names in a dictionary, one by one
-print(my_dict.keys())
+for x in my_dict.keys():
+    print(x)
 
 # Print all values in a dictionary, one by one
-for x in my_dict.values():
-    print(x)
-    
+for y in my_dict.values():
+    print(y)
+
 # Use the values() function to return values of a dictionary
 # Loop through both keys and values, by using the items() function
 # Check if a key exists
+
 # Get the length of a dictionary
+print(len(my_dict))
+
 # Add an item to a dictionary
 # Remove an item from a dictionary
 # Empty a dictionary
