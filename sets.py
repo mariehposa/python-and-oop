@@ -30,4 +30,6 @@ my_set.pop()
 
 # Empty a set
 # Delete a set
+del my_set
+
 # Use the set() constructor to create a set
