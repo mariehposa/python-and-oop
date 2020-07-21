@@ -9,6 +9,9 @@ tuple_list = list(my_tuple)
 tuple_list[0] = 'cherry'
 
 # Loop through a tuple
+for x in my_tuple:
+    print(x)
+    
 # Check if a tuple item exists
 # Get the length of a tuple
 # Delete a tuple
