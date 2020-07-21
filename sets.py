@@ -10,6 +10,8 @@ if 'rice' in my_set:
     print('It exists')
 
 # Add an item to a set
+my_set.add('beans')
+
 # Add multiple items to a set
 # Get the length of a set
 # Remove an item in a set
