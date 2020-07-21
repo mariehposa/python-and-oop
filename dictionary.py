@@ -15,6 +15,9 @@ print(my_dict)
 print(my_dict.keys())
 
 # Print all values in a dictionary, one by one
+for x in my_dict.values():
+    print(x)
+    
 # Use the values() function to return values of a dictionary
 # Loop through both keys and values, by using the items() function
 # Check if a key exists
