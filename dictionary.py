@@ -1,10 +1,11 @@
 # create a dictionary
 my_dict = {
-    'name': 'Lin Armstrong'
+    'name': 'Lin Armstrong',
     'age': 23
 }
 
 # Access the items of a dictionary
+print(my_dict)
 # Change the value of a specific item in a dictionary
 # Print all key names in a dictionary, one by one
 # Print all values in a dictionary, one by one
