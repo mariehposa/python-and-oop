@@ -29,6 +29,8 @@ my_set.discard('yam')
 my_set.pop()
 
 # Empty a set
+my_set.clear()
+
 # Delete a set
 del my_set
 
