@@ -21,8 +21,11 @@ for x in my_dict.keys():
 # Use the values() function to return values of a dictionary
 for y in my_dict.values():
     print(y)
-    
+
 # Loop through both keys and values, by using the items() function
+for y in my_dict.items():
+    print(y)
+
 # Check if a key exists
 if 'name' in my_dict.keys():
     print('It exists')
