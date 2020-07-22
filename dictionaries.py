@@ -22,6 +22,8 @@ for y in my_dict.values():
 # Use the values() function to return values of a dictionary
 # Loop through both keys and values, by using the items() function
 # Check if a key exists
+if 'name' in my_dict.keys():
+    print('It exists')
 
 # Get the length of a dictionary
 print(len(my_dict))
