@@ -16,10 +16,12 @@ for x in my_dict.keys():
     print(x)
 
 # Print all values in a dictionary, one by one
-for y in my_dict.values():
-    print(y)
+
 
 # Use the values() function to return values of a dictionary
+for y in my_dict.values():
+    print(y)
+    
 # Loop through both keys and values, by using the items() function
 # Check if a key exists
 if 'name' in my_dict.keys():
