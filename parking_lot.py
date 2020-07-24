@@ -11,7 +11,10 @@ class CarHandler(ParkingLot):
         self.cars_in_lot = []
 
     def getCars(self, id, car_name, car_model, carOwnner):
-        self.id = 
+        self.id = uuid.uuid1()
+        self.car_name = car_name
+        self.car_model = car_model
+        self.carOwnner = carOwnner
 
 class CarOwnner(ParkingLot):
     def __init__(self, name, car_name):
