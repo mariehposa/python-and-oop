@@ -3,12 +3,19 @@ class ParkingLot:
         self.name = name
         self.isAdmin = isAdmin
 
-class CarHandler:
+class CarHandler(ParkingLot):
     def __init__(self, name):
         super.__init__(name)
         self.cars_in_lot = []
 
-class CarOwnner:
+class CarOwnner(ParkingLot):
     def __init__(self, name, car_name):
         super.__init__(name)
         self.car_name = car_name
+
+class Car:
+    def __init__(self, car_name, car_model, car_color, carOwnner):
+        super.__init__(car_name)
+        self.car_model = car_model
+        self.car_color = car_color
+        self.carOwnner = carOwnner
