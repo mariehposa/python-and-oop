@@ -1,3 +1,5 @@
+import uuid
+
 class ParkingLot:
     def __init__ (self, name, isAdmin = False):
         self.name = name
@@ -7,6 +9,9 @@ class CarHandler(ParkingLot):
     def __init__(self, name):
         super.__init__(name)
         self.cars_in_lot = []
+
+    def getCars(self, id, car_name, car_model, carOwnner):
+        self.id = 
 
 class CarOwnner(ParkingLot):
     def __init__(self, name, car_name):
