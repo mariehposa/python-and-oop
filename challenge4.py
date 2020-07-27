@@ -7,3 +7,5 @@ class Challenge4:
         if food is None:
             raise Exception ("Food cannot be null ")
     
+    def _getter(self):
+        return "{} is a {}".format(self.food, self.type)
