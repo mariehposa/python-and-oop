@@ -7,3 +7,5 @@ class Challenge3:
 
     def __repr__(self):
         pass
+
+a = Challenge3()
