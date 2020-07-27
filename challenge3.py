@@ -5,4 +5,5 @@ class Challenge3:
     def __str__(self):
         pass
 
-    d
+    def __repr__(self):
+        pass
