@@ -18,3 +18,11 @@ print(test.get_name())
 test2 = Challenge5('mark')
 test2 = Challenge5('jeff')
 print(test.get_count())
+
+
+
+class withoutClassMethod():
+    count = 0
+
+    def __init__(self):
+        Challenge5.count += 1
