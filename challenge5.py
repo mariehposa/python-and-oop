@@ -16,8 +16,8 @@ test = Challenge5('mariam')
 print(test.get_name())
 
 test2 = Challenge5('mark')
-test2 = Challenge5('jeff')
-print(test.get_count())
+test3 = Challenge5('jeff')
+print(Challenge5.get_count())
 
 
 
@@ -27,5 +27,10 @@ class withoutClassMethod():
     def __init__(self):
         withoutClassMethod.count += 1
 
-    def get_counts(self):
-        return (f"Challenge5 has {withoutClassMethod.count} class instances")
+    def get_counts():
+        return (f"withoutClassMethod has {withoutClassMethod.count} class instances")
+
+test1 = withoutClassMethod()
+test2 = withoutClassMethod()
+test3 = withoutClassMethod()
+print(withoutClassMethod.get_counts())
