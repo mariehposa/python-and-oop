@@ -1,9 +1,9 @@
-class Challenge5:
+class Challenge5():
     count = 0
 
     def __init__(self, name):
-        Challenge5.count += 1
         self.name = name
+        Challenge5.count += 1
 
     def get_name(self):
         return ('my name is {}'.format(self.name))
@@ -11,3 +11,7 @@ class Challenge5:
     @classmethod
     def get_count(cls):
         return (f"Challenge5 has {cls.count} class instances")
+
+test = Challenge5('mariam')
+print(test.get_name())
+# print(test.get_count)
