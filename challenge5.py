@@ -25,4 +25,7 @@ class withoutClassMethod():
     count = 0
 
     def __init__(self):
-        Challenge5.count += 1
+        withoutClassMethod.count += 1
+
+    def get_counts(self):
+        return (f"Challenge5 has {withoutClassMethod.count} class instances")
