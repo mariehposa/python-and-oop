@@ -14,4 +14,7 @@ class Challenge5():
 
 test = Challenge5('mariam')
 print(test.get_name())
-# print(test.get_count)
+
+test2 = Challenge5('mark')
+test2 = Challenge5('jeff')
+print(test.get_count())
