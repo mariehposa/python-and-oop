@@ -15,10 +15,11 @@ class Software(Engineering):
     def get_info(self):
         print(f'{self.name} salary as a software engineer is {self.salary}')
 
-
 class Hardware(Engineering):
     def __init__(self, name):
         super().__init__(name)
 
     def get_info(self):
         print(f'{self.name} is a hardware engineer')
+
+parent = Engineering('cassidy', 'senior developer', 'netlify')
