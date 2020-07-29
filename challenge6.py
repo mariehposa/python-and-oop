@@ -22,4 +22,5 @@ class Hardware(Engineering):
     def get_info(self):
         print(f'{self.name} is a hardware engineer')
 
-parent = Engineering('cassidy', 'senior developer', 'netlify')
+parent = Engineering('cassidy williams', 'senior developer', 'netlify')
+first_child = Software('angie jones', '$150000')
