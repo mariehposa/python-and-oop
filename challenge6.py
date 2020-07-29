@@ -11,3 +11,6 @@ class Software(Engineering):
     def __init__(self, name, salary):
         super().__init__(name)
         self.salary =  salary
+
+    def get_info(self):
+        print(f'{self.name} salary is {self.salary}')
