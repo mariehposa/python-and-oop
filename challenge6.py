@@ -14,3 +14,9 @@ class Software(Engineering):
 
     def get_info(self):
         print(f'{self.name} salary is {self.salary}')
+
+
+class Hardware(Engineering):
+    def __init__(self, name):
+        super().__init__(name)
+        
