@@ -24,3 +24,4 @@ class Hardware(Engineering):
 
 parent = Engineering('cassidy williams', 'senior developer', 'netlify')
 first_child = Software('angie jones', '$150000')
+second_child = Hardware('Yuken')
