@@ -15,3 +15,6 @@ class Foods:
         self.carbohydrates = carbohydrates
         self.proteins = proteins
         self.fats = fats
+
+    def details(self):
+        print(f'Food contains {self.carbohydrates.name} as carbohydrate, {self.proteins.name} as protein and {self.fats.name} as fat')
