@@ -5,3 +5,8 @@ class Carbohydrates:
 class Proteins:
     def __init__(self, name):
         self.name = name
+
+class Fats:
+    def __init__(self, name):
+        self.name = name
+        
