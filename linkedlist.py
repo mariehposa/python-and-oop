@@ -62,5 +62,11 @@ class Linkedlist(Element):
         current = self.value
         previous = None
 
+        while current.value != value:
+            previous = current
+            current = current.next
+            
         if current.value == value:
+            if previous:
+                previous.next = current.next
             self.head = current.next
