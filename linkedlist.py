@@ -29,7 +29,7 @@ class Linkedlist(Element):
         elif position == 1:
             return current
         else:
-            while position >= current and counter:
+            while position >= current:
                 if position == current:
                     return current
                 current = current.next
@@ -49,3 +49,10 @@ class Linkedlist(Element):
         elif position == 1:
             new_element.next = self.head
             self.head = new_element
+        else:
+            while position >= current:
+                if counter == position:
+                    new_element.next = current
+                    current = new_element
+                current = current.next
+                counter += 1
