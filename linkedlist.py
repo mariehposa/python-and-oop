@@ -34,3 +34,18 @@ class Linkedlist(Element):
                     return current
                 current = current.next
                 counter += 1
+
+    def insert(self, new_element, position):
+        """Insert a new node at the given position.
+        Assume the first position is "1".
+        Inserting at position 3 means between
+        the 2nd and 3rd elements."""
+        
+        counter = 1
+        current = self.head
+
+        if position < 1:
+            return None
+        elif position == 1:
+            new_element.next = self.head
+            self.head = new_element
