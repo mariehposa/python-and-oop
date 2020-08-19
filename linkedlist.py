@@ -56,3 +56,11 @@ class Linkedlist(Element):
                     current = new_element
                 current = current.next
                 counter += 1
+
+    def delete(self, value):
+        """Delete the first node with a given value."""
+        current = self.value
+        previous = None
+
+        if current.value == value:
+            self.head = current.next
