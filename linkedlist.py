@@ -21,10 +21,16 @@ class Linkedlist(Element):
         """Get an element from a particular position.
         Assume the first position is "1".
         Return "None" if position is not in the list."""
+        
+        counter = 1
         current = self.head
         if position < 1:
             return None
         elif position == 1:
             return current
         else:
-            
+            while position >= current and counter:
+                if position == current:
+                    return current
+                current = current.next
+                counter += 1
