@@ -19,13 +19,4 @@ def timeConversion(s):
     else:
         return str(int(s[:2]) + 12) + s[2:8]
 
-if __name__ == '__main__':
-    f = open(os.environ['OUTPUT_PATH'], 'w')
-
-    s = input()
-
-    result = timeConversion(s)
-
-    f.write(result + '\n')
-
-    f.close()
+print(timeConversion('07:05:45PM'))
