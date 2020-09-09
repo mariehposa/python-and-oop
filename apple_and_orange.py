@@ -22,3 +22,5 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
 
     print(len(outputA))
     print(len(outputB))
+
+countApplesAndOranges(7, 11, 5, 15, [-2, 2, 1], [5, -6])
