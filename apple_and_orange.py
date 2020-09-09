@@ -17,4 +17,5 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
 
     for j in range(0, len(oranges)):
         resb = b + oranges[j]
-        
+        if(resb >= s and resb <= t):
+            outputB.append(resb)
