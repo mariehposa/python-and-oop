@@ -29,13 +29,3 @@ class AirlineRoutes:
         path = []
 
         self.printPathsHelper(start, destination, visited, path)
-
-
-test = AirlineRoutes(5)
-test.add(0, 1)
-test.add(0, 2)
-test.add(1, 3)
-test.add(3, 4)
-test.add(2, 4)
-test.add(0, 4)
-test.printPaths(0, 4)
