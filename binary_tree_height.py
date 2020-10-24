@@ -8,4 +8,8 @@ class Node:
 def height(root):
     if root is None:
         return -1
-    
+    else:
+        right_subtree = height(root.right)
+        left_subtree = height(root.left)
+
+        return (max(right_subtree, left_subtree)) + 1
