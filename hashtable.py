@@ -11,3 +11,12 @@ class HashTable(object):
           else:
             self.table[index].append(string)
         return -1
+
+    def lookup(self, string):
+        index = self.calculate_hash_value(string)
+
+        if index != None:
+          if self.table[index] != None:
+            if string in self.table[index]:
+              return index
+        return -1
